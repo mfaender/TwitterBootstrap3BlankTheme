@@ -74,8 +74,7 @@ function bootstrapwp_images() {
  */
 function bootstrapwp_styles_loader() {
 
-      wp_enqueue_style('bicbswp-style', get_template_directory_uri() . '/style.css');
-      wp_enqueue_style('bicbswp-default', get_stylesheet_uri());
+	wp_enqueue_style('bicbswp-style', get_template_directory_uri() . '/style.css', array(), '1.0.0', 'all' );
  
 }
 
