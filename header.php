@@ -24,7 +24,6 @@ defined('ABSPATH') or die();
         }
         ?>
 
-        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
         <!--        
         <link rel="apple-touch-icon-precomposed" sizes="144x144"
